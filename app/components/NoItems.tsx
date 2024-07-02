@@ -7,7 +7,7 @@ function NoItems() {
         <File className="w-10 h-10 text-primary" />
       </div>
       <h2 className="mt-6 text-xl font-semibold">
-        Sorry no listings for this category found...
+        Sorry no listings found for this category ...
       </h2>
       <p className="mt-2 text-sm leading-6 text-gray-400">
         Please check out another category or create your own listing!
