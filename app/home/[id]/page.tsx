@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { CategoryShowcase } from "@/app/components/CategoryShowcase";
 import { HomeMap } from "@/app/components/HomeMap";
+import { SelectCalendar } from "@/app/components/SelectCalendar";
 import prisma from "@/app/lib/db";
 import { useCountries } from "@/app/lib/getCountries";
 import { Separator } from "@/components/ui/separator";
@@ -56,8 +57,8 @@ export default async function HomeRoute({
           />
         </div>
 
-        <div className="flex justify-between gap-x-24 mt-8">
-          <div className="w-2/3">
+        <div className="flex flex-col md:flex-row justify-between md:gap-x-12 lg:gap-x-24 mt-8">
+          <div className="md:w-2/3">
             <h3 className="text-xl font-medium">
               {country?.label} / {country?.region}
             </h3>
@@ -95,6 +96,7 @@ export default async function HomeRoute({
 
             <HomeMap locationValue={country?.value as string} />
           </div>
+          <SelectCalendar />
         </div>
       </div>
     </>
