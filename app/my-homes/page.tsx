@@ -49,7 +49,7 @@ export default async function MyHomes() {
             description="Please list a home on airbnb so that you can see it."
           />
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
+          <div className="mb-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
             {data.map((item) => (
               <ListingCard
                 key={item.id}

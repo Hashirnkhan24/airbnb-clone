@@ -45,7 +45,7 @@ export default async function FavoriteRoute() {
             description="Please add favorites to see them right here!"
           />
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
+          <div className="mb-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
             {data.map((item) => (
               <ListingCard
                 key={item.Home?.id}
