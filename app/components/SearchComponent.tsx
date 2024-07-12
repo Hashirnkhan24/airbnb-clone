@@ -26,7 +26,7 @@ import { HomeMap } from "./HomeMap";
 import { Button } from "@/components/ui/button";
 import { CreationSubmit } from "./SubmitButtons";
 import { Card, CardHeader } from "@/components/ui/card";
-import { Counter } from "./Counter";
+import Counter from "./Counter";
 
 export function SearchModalCompnent() {
   const [step, setStep] = useState(1);
