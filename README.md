@@ -1,7 +1,7 @@
 ## AirBnB Clone - Next.js 14 Project
 
 Live Demo
-You can view a live demo of the application deployed on Vercel at: [link](https://airbnb-app.vercel.app/)
+You can view a live demo of the application deployed on Vercel at: [link](https://airbnb-clone-wine-seven.vercel.app/)
 
 This project is an AirBnB clone website built with Next.js 14 to showcase skills and explore functionalities. 
 
